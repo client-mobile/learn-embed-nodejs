@@ -1,0 +1,17 @@
+{
+  "name": "telegram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "led-on.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "johnny-five": "^0.9.18",
+    "johnny-telegram": "git+https://github.com/rssilva/johnny-telegram.git",
+    "node-telegram-bot-api": "^0.19.2"
+  }
+}
